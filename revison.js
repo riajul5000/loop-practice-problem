@@ -29,19 +29,67 @@ fruits.pop();
 fruits.push('Watermelon');
 // console.log(fruits);
 
-var num1 = 113;
+var num1 = 13;
 var num2 = 79;
 var num3 = 45;
- if(num1 > num2){
-    console.log(num1);
-    if(num2 > num1){
-        console.log(num2);
-    }else{
-        console.log(num1);
+
+if(num1 > num2){
+    if(num1 > num3){
+        // console.log(num1)
     }
- }
- else{
+    else{
+        // console.log(num3)
+    }
+}
+else{
     if(num2 > num3){
-        console.log(num2)
+        // console.log(num2)
     }
- }
+    else{
+        // console.log(num3)
+    }
+}
+
+for(i = 0; i < 1000; i++){
+    // console.log('I love you Athu');
+}
+
+for(i = 58; i <98; i++){
+    // console.log(i);
+}
+
+var num23 = 412;
+while(num23 < 456){
+    // console.log(num23);
+    num23 = num23 + 2;
+}
+
+var num56 = 581;
+while(num56 < 623){
+    // console.log(num56);
+    num56 = num56 + 2;
+}
+
+var myLearning = ['Html', 'css', 'Tailwind', 'Daisy ui', 'javascript']; 
+for(i = 0; i < myLearning.length; i++){
+    var myLearning1 = myLearning[i];
+    // console.log(myLearning1);
+}
+
+var num33 = 36;
+while(num33 < 86){
+    // console.log(num33);
+    num33++;
+    if(num33 > 44){
+        break;
+    }
+}
+
+var booksNamePrice = [150, 120, 400, 100, 230];
+for(i = 0; i < booksNamePrice.length; i++){
+    var booksNamePrice1 = booksNamePrice[i];
+    if(booksNamePrice1 > 200){
+        continue;
+    }
+    console.log(booksNamePrice1);
+}
